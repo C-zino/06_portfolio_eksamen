@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins&display=swap");
+
+@font-face {
+  font-family: "Anton";
+  src: url("../font/Anton-Regular.woff2") format("woff2"),
+    url("../font/Anton-Regular.woff") format("woff"),
+    url("../font/Anton-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 200px;
+  --font: #1900d3;
+  --bg: #9F9F9F;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+a {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 5px;
+}
+
+#frontpage {
+  height: 700px;
+  background-image: url(../img/portfolio_front_small.webp);
+  background-size: cover;
+  background-position-y: 300px;
+  background-repeat: no-repeat;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.nav-menu-front {
+  display: flex;
+  justify-content: space-around ;
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+  padding: 20px;
+  color: var(--font);
+  margin-top: 40px;
+}
+
+.nav-menu-front a {
+  display: inline-block;
+  margin: 0;
+  padding-right: 10px;
+  text-decoration: none;
+  color: var(--font);
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-menu-front a:hover {
+  color: black;
+}
+
+.none {
+  display: none;
+}
+
+.webh1 {
+  display: none;
+}
+
+.main-href {
+  text-decoration: none; 
+}
+
+.mainh2 {
+  color: var(--font);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 290px;
+}
+
+.mainh1{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav-menu-front-web {
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+  padding: 0;
+  margin-top: 325px;
+  color: var(--font);
+}
+
+.nav-menu-front-web a {
+  display: inline-block;
+  margin: 0;
+  padding-right: 30px;
+  text-decoration: none;
+  color: var(--font);
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-menu-front-web a:hover {
+  color: black;
+}
+
+
+footer {
+  background-color: var(--bg) ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  color: white;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.footer-frontpage{
+  margin-top: 200px;
+}
+
+@media (width >= 1100px) {
+  .header-frontpage {
+    display: none;
+  }
+
+  .mainh1 dotlottie-player {
+    display:none ;
+  }
+
+  .mainh2 {
+    display: none;
+  }
+
+  .none {
+    display: block;
+  }
+
+  #frontpage {
+    height: 750px;
+    background-image: url(../img/portfolio_front.webp);
+    background-size: cover;
+    background-position: center 150px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: -10px;
+    margin-right: -50px;
+    margin-top: -30px;
+  }
+
+  .webh1 {
+    display: flex;
+    justify-content: end;
+    margin-right: 130px;
+  }
+
+  .webh2 {
+    color: var(--font);
+    max-width: 100%;
+    margin-right: 100px;
+    font-size: 70px;
+    padding-top: 40px;
+  }
+
+  .nav-menu-front-web {
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+    padding: 0;
+    margin-top: 210px;
+    color: var(--font);
+  }
+
+  .nav-menu-front-web a {
+    display: inline-block;
+    margin: 0;
+    padding-right: 30px;
+    text-decoration: none;
+    color: var(--font);
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+
+  .nav-menu-front-web a:hover {
+    color: black;
+  }
+}
+
+@media (width >= 1450px) {
+
+  .webh1 {
+    margin-top: -10px;
+  }
+
+  .webh2 {
+    font-size: 110px;
+    margin-top: 120px;
+  }
+
+  .nav-menu-front-web {
+    margin-top: 130px;
+  }
+
+  .nav-menu-front-web a {
+    font-size: 30px;
+  }
+}
+
+
+

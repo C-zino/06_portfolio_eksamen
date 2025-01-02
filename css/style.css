@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins&display=swap");
+
+@font-face {
+  font-family: "Anton";
+  src: url("../font/Anton-Regular.woff2") format("woff2"),
+    url("../font/Anton-Regular.woff") format("woff"),
+    url("../font/Anton-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 200px;
+  --font: #1900d3;
+  --bg: #9f9f9f;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+main {
+  margin: 50px;
+  margin-top: 130px;
+}
+
+.nav-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  margin-top: -10px;
+}
+
+.nav-mobile img {
+  width: 100%;
+  max-width: 300px;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin-top: -20px;
+}
+
+.nav-mobile svg {
+  padding-right: 40px;
+  margin-top: 15px;
+}
+
+.nav-web {
+  display: none;
+}
+
+.navh2 {
+  font-size: 10px;
+  color: var(--font);
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: var(--font);
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu a:hover {
+  color: black;
+}
+
+.burgermenu{
+padding-left: 25px;
+}
+
+.dropdown-menu {
+  display: none;
+  background-color: white;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+.dropdown-menu a {
+  font-family: "Anton";
+  color: var(--font);
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 20px;
+  transition: background-color 0.3s;
+}
+
+.dropdown-menu a:hover {
+  color: #000000;
+}
+.hide {
+  display: none;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+footer{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+
+/* ABOUT ME SITE */
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about svg {
+  max-width: 100%;
+}
+
+.cv h4 {
+  font-family: poppins;
+  letter-spacing: 0px;
+  margin-top: -20px;
+}
+
+.cv h3 {
+font-family: poppins;
+font-weight: 900;
+  padding-top: 20px;
+  letter-spacing: 0px;
+}
+
+.cv h5 {
+    font-family: poppins;
+    font-weight: 900;
+  font-size: 15px;
+  font-weight: 900;
+  margin-bottom: -10px;
+  margin-top: 40px;
+}
+
+.cv p {
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.cv div {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.72);
+}
+
+.cv-container {
+  background-image: url(../img/background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: -60px;
+  margin-right: -60px;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+/* ABOUT ME SITE */
+
+/* PORTFOLIO MENU */
+  
+  .portfolio-container a {
+    text-decoration: none;
+  }
+  
+  .portfolioimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    opacity: 80%;
+    border: 1px solid black;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay h2 {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.914);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .overlay h2:hover {
+    color: var(--font);
+  }
+
+  .overlay_2_hidden{
+    display: none;
+  }
+
+  .overlay_2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgba(80, 80, 80, 0.91);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .overlay_2 a {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: poppins;
+    letter-spacing: 0;
+    font-weight: 900;
+
+  }
+
+  .overlay_2 a:hover {
+    color: var(--font);
+}
+/* PORTFOLIO MENU */
+
+/* PORTFOLIO CONTENT SITES */
+
+.main-portfolio-content h2 {
+letter-spacing: 0px;
+}
+
+.main-portfolio-content a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+    letter-spacing: 0px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.main-portfolio-content a:hover {
+    color:var(--font);
+}
+
+.grid1-1{
+    padding-top: 50px;
+
+}
+
+.grid1-1 img{
+    width: 100%;
+    max-width: 700px;
+}
+
+.grid1-1 iframe{
+    width: 100%;
+    max-width: 700px;
+}
+
+.border_img{
+    border: 1px solid black;
+}
+
+.zeymer a{
+font-size: 14px;
+}
+
+.audio-container h3{
+    letter-spacing: 0px;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+#audio-grid{
+    margin-top: -50px;
+}
+
+  
+@media (width >= 1200px) {
+
+    .main-portfolio-content{
+        padding: 50px;
+    } 
+
+    .main-portfolio-content-intro{
+        text-align: center;
+        padding-bottom: 50px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    }
+    
+
+
+
+/* PORTFOLIO CONTENT SITES */
+  
+
+
+
+
+
+/* EVERYTHING NOT MOBILE */
+@media (width >= 1200px) {
+  main {
+    margin-top: 130px;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+
+  .nav-web {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    z-index: 10;
+    margin-top: -10px;
+  }
+
+  .nav-web img {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 30px;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 150px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: -10px;
+    white-space: nowrap;
+  }
+
+  .nav-menu a {
+    text-decoration: none;
+    color: var(--font);
+    font-size: 30px;
+    transition: color 0.3s ease;
+  }
+
+  .nav-menu a:hover {
+    color: black;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: -200px;
+  }
+
+  .abouth1 {
+    font-size: 100px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    top: 220px;
+    right: 130px;
+  }
+
+  .about-text {
+    margin-top: 100px;
+    margin-left: -100px;
+  }
+
+  .about-svg {
+    max-width: 450px;
+  }
+}
+
+    
+
+
+
+
+
