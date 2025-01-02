@@ -37,12 +37,13 @@ main {
   margin-top: -10px;
 }
 
+
 .nav-mobile img {
   width: 100%;
-  max-width: 300px;
+  max-width: 250px;
   padding-top: 30px;
   padding-left: 30px;
-  margin-top: -20px;
+  margin-top: -17px;
 }
 
 .nav-mobile svg {
@@ -72,10 +73,6 @@ main {
 
 .nav-menu a:hover {
   color: black;
-}
-
-.burgermenu{
-padding-left: 25px;
 }
 
 .dropdown-menu {
@@ -232,20 +229,21 @@ font-weight: 900;
     background-color: rgba(80, 80, 80, 0.91);
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+
   }
 
   .overlay_2 a {
-    color: white;
-    font-size: 18px;
+    display: flex;
     text-align: center;
-    padding: 15px;
-    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
     text-decoration: none;
     font-family: poppins;
     letter-spacing: 0;
-    font-weight: 900;
-
+    font-weight: 900; 
   }
 
   .overlay_2 a:hover {
