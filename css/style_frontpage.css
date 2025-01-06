@@ -13,7 +13,7 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 200px;
   --font: #1900d3;
-  --bg: #9F9F9F;
+  --bg: #9f9f9f;
   background-color: white;
   overflow-x: hidden;
 }
@@ -44,12 +44,12 @@ a {
 
 .nav-menu-front {
   display: flex;
-  justify-content: space-around ;
+  justify-content: space-around;
   text-decoration: none;
   color: inherit;
   list-style: none;
-padding-left: 20px;
-padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: var(--font);
   margin-top: 40px;
 }
@@ -76,7 +76,7 @@ padding-right: 20px;
 }
 
 .main-href {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .mainh2 {
@@ -86,7 +86,7 @@ padding-right: 20px;
   margin-top: 140px;
 }
 
-.mainh1{
+.mainh1 {
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -115,9 +115,8 @@ padding-right: 20px;
   color: black;
 }
 
-
 footer {
-  background-color: var(--bg) ;
+  background-color: var(--bg);
   display: flex;
   justify-content: center;
   text-align: center;
@@ -127,7 +126,7 @@ footer {
   margin-right: -10px;
 }
 
-.footer-frontpage{
+.footer-frontpage {
   margin-top: 200px;
 }
 
@@ -137,7 +136,7 @@ footer {
   }
 
   .mainh1 dotlottie-player {
-    display:none ;
+    display: none;
   }
 
   .mainh2 {
@@ -199,7 +198,6 @@ footer {
 }
 
 @media (width >= 1450px) {
-
   .webh1 {
     margin-top: -10px;
   }
@@ -217,6 +215,3 @@ footer {
     font-size: 30px;
   }
 }
-
-
-
