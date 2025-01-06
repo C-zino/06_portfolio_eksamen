@@ -299,6 +299,11 @@ footer {
   margin-top: -50px;
 }
 
+iframe {
+  aspect-ratio: 16 / 9;
+  border: none;
+}
+
 .back {
   border: 1px solid black;
   border-radius: 10px;
@@ -374,6 +379,30 @@ footer {
 
   .nav-menu a:hover {
     color: black;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: -232px;
+    top: 37px;
+    background-color: white;
+    z-index: 10;
+    padding-top: 20px;
+  }
+
+  .dropdown-content a {
+    font-size: 18px;
+    padding-right: 32px;
+  }
+
+  .dropdown:hover .dropdown-content,
+  .dropdown-content:hover {
+    display: flex;
   }
 
   .about-container {

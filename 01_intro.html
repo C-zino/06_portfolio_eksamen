@@ -16,11 +16,7 @@
   <body>
     <header class="nav-mobile">
       <a href="index.html">
-        <img
-          class="logo"
-          src="../06_portfolio_eksamen/img/logo.webp"
-          alt="logo"
-        />
+        <img src="../06_portfolio_eksamen/img/logo.webp" alt="logo" />
       </a>
 
       <div class="burgermenu">
@@ -50,7 +46,17 @@
       </a>
       <nav class="nav-menu">
         <a href="index.html">HJEM</a>
-        <a href="portfolio.html">PORTFOLIO</a>
+        <div class="dropdown">
+          <a href="portfolio.html">PORTFOLIO</a>
+          <div class="dropdown-content">
+            <a href="01_intro.html">TEMA 1</a>
+            <a href="02_grundlæggende_web.html">TEMA 2</a>
+            <a href="03_Grundlæggende_UX_UI.html">TEMA 3</a>
+            <a href="04_Grundlæggende_animation.html">TEMA 4</a>
+            <a href="05_Grundlæggende_indhold.html">TEMA 5</a>
+            <a href="05_02_Grundlæggende_indhold.html">TEMA 5-2</a>
+          </div>
+        </div>
         <a href="om-mig.html">OM MIG</a>
       </nav>
     </header>
@@ -115,10 +121,8 @@
         </div>
         <div class="visual">
           <iframe
-            style="aspect-ratio: 16 / 9"
             src="https://www.youtube.com/embed/BQG-yuW-NOE?si=Jbx2kP-_4hYEfIi-"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
