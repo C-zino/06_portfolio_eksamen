@@ -121,7 +121,8 @@ footer {
   justify-content: center;
   text-align: center;
   color: white;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-left: -10px;
   margin-right: -10px;
 }
