@@ -120,8 +120,9 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 50px;
   color: white;
+  padding: 50px;
+  width: 100%;
   margin-left: -10px;
   margin-right: -10px;
 }
@@ -165,6 +166,10 @@ footer {
     margin-right: 130px;
   }
 
+  .lottiefile {
+    width: 1000px;
+  }
+
   .webh2 {
     color: var(--font);
     max-width: 100%;
@@ -199,7 +204,7 @@ footer {
 
 @media (width >= 1450px) {
   .webh1 {
-    margin-top: -10px;
+    margin-top: 15px;
   }
 
   .webh2 {
@@ -208,10 +213,49 @@ footer {
   }
 
   .nav-menu-front-web {
-    margin-top: 130px;
+    margin-top: 95px;
   }
 
   .nav-menu-front-web a {
     font-size: 30px;
   }
 }
+
+@media (width >= 2000px) {
+#frontpage {
+  height: 1100px;
+  background-position: center 300px;
+
+  .webh1 {
+    margin-top: 100px;
+  }
+
+  .lottiefile {
+    width: 1200px;
+  }
+
+  .webh2 {
+    font-size: 140px;
+    margin-top: 155px;
+  }
+
+  .nav-menu-front-web {
+    margin-top: 230px;
+
+  }
+
+  .nav-menu-front-web a {
+    font-size: 50px;
+  }
+  
+}
+}
+
+
+
+  
+  
+  
+
+
+  
